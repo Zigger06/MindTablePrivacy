@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zigger06.github.io/MindTablePrivacy/sitemap.xml

@@ -1,0 +1,311 @@
+{
+  "ru": {
+    "title": "Политика конфиденциальности",
+    "description": "Как MindTable обрабатывает данные: локальная игра, Wi‑Fi и Bluetooth, реклама и ваши возможности управления конфиденциальностью.",
+    "eyebrow": "MindTable / Конфиденциальность",
+    "effective_label": "Действует с · обновлено",
+    "date": "6 октября 2026 года",
+    "version": "Редакция 1.0",
+    "skip": "Перейти к тексту политики",
+    "language_label": "Язык политики",
+    "summary_label": "Основные сведения",
+    "toc_label": "Содержание",
+    "print": "Печать / сохранить PDF",
+    "contact_button": "Вопрос о данных",
+    "footer": "Русская версия",
+    "history": "История изменений",
+    "intro": "MindTable позволяет играть в шахматы, русские шашки, го и мельницу на одном устройстве или с соперником поблизости. Эта политика объясняет, какие данные обрабатывает игра, что остаётся на устройстве, что передаётся другим участникам и рекламным сервисам и как вы можете управлять своими данными.",
+    "summary": [
+      {
+        "title": "Без регистрации",
+        "text": "Для игры не нужен аккаунт MindTable, имя, телефон или email."
+      },
+      {
+        "title": "Партии рядом",
+        "text": "Wi‑Fi и Bluetooth соединяют устройства напрямую, без игрового сервера разработчика."
+      },
+      {
+        "title": "Реклама раскрыта",
+        "text": "AdMob может обрабатывать технические данные. Выбор согласия доступен там, где требуется."
+      }
+    ],
+    "sections": [
+      {
+        "id": "about",
+        "title": "Приложение и разработчик",
+        "body": "<p>Политика относится к приложению <strong>MindTable</strong>, его Android-версии, локальным версиям для компьютера и этому сайту. Разработчик — <strong>Zigger06</strong>, независимый автор MindTable. Профиль разработчика: <a href=\"https://github.com/Zigger06\">github.com/Zigger06</a>. Способ обращения по вопросам конфиденциальности указан в <a href=\"#contact\">разделе 14</a>.</p>\n            <p>MindTable не создаёт пользовательские аккаунты, не требует входа в Google или социальные сети и не ведёт собственную серверную базу профилей или партий. Рекламные функции относятся к Android-сборкам, в которых включена реклама.</p>\n            <p>Игровой код не запрашивает ваши контакты, сообщения, фотографии, микрофон, камеру или точные GPS-координаты. Это не означает полного отсутствия обработки данных: сведения о рекламе и соединении описаны ниже.</p>"
+      },
+      {
+        "id": "local-data",
+        "title": "Данные на устройстве",
+        "body": "<p>MindTable сохраняет данные в области хранения приложения для работы выбранных функций.</p>\n            <table class=\"data-table\"><thead><tr><th scope=\"col\">Категория</th><th scope=\"col\">Содержание и назначение</th></tr></thead><tbody>\n            <tr><td><strong>Настройки</strong></td><td>Язык, звук, музыка, вибрация, анимация, оформление доски и фигур, размер доски го. Нужны, чтобы сохранять ваши предпочтения.</td></tr>\n            <tr><td><strong>Незавершённая локальная партия</strong></td><td>Положение фигур, история ходов, состояние партии и время сохранения. Нужны для продолжения игры на одном устройстве. Сетевые партии этим механизмом не сохраняются.</td></tr>\n            <tr><td><strong>Ограничение рекламы</strong></td><td>Счётчики завершённых партий и время последнего показа. Нужны для ограничения частоты полноэкранной рекламы.</td></tr>\n            <tr><td><strong>Выбор согласия</strong></td><td>Рекламный SDK может сохранять статус и параметры согласия и обращаться к Google для их проверки.</td></tr>\n            </tbody></table>\n            <p>Разработчик не получает настройки или локальные сохранения автоматически. Резервное копирование и восстановление устройством или операционной системой регулируются их собственными настройками и условиями.</p>"
+      },
+      {
+        "id": "multiplayer",
+        "title": "Wi‑Fi и Bluetooth",
+        "body": "<h3>Игра по Wi‑Fi</h3><p>Во время поиска комнаты и сетевой партии устройства обмениваются локальными IP-адресами, портами, моделью или обозначением устройства-хоста, шестизначным кодом комнаты, идентификатором игры, служебными данными соединения, ходами и состоянием доски. При поиске MindTable отправляет запросы обнаружения в локальную сеть; устройство-хост отвечает данными комнаты. Эти сведения доступны другим участникам соответствующей локальной сети.</p>\n            <h3>Игра по Bluetooth</h3><p>Для подключения игра обращается к списку уже сопряжённых телефонов и компьютеров, включая их Bluetooth-имена и адреса, и использует их для поиска комнаты. Код комнаты, служебные сообщения и игровые действия передаются непосредственно между подключёнными устройствами. Список сопряжений не загружается на сервер разработчика или в AdMob игровым кодом.</p>\n            <p>Разработчик не получает поток ходов этих партий. Соперник получает состояние игры и может самостоятельно сохранить его, например снимком экрана. Рекламный SDK отдельно может обращаться к интернету даже во время использования локальных игровых функций.</p>"
+      },
+      {
+        "id": "permissions",
+        "title": "Разрешения Android",
+        "body": "<ul><li><strong>Интернет и состояние сети:</strong> реклама, проверка согласия и сетевые соединения.</li><li><strong>Состояние Wi‑Fi и многоадресное обнаружение:</strong> поиск игровых комнат в локальной сети.</li><li><strong>Bluetooth / «Устройства поблизости»:</strong> соединение с уже сопряжёнными устройствами. На соответствующих версиях Android запрашивается разрешение Bluetooth Connect.</li></ul>\n            <p>Точный набор системных названий зависит от версии Android. Игровой механизм не использует сканирование Bluetooth для определения местоположения и не запрашивает разрешение на точную геолокацию. Отказ от Bluetooth-разрешения отключает эту возможность соединения, но не мешает игре на одном устройстве. Разрешения можно изменить в настройках Android.</p>"
+      },
+      {
+        "id": "advertising",
+        "title": "Реклама и сервисы Google",
+        "body": "<p>В Android-версии используются <strong>Google AdMob / Google Mobile Ads SDK</strong> и <strong>Google User Messaging Platform (UMP)</strong>. Реклама может включать баннер в главном меню и отдельные показы после завершённых партий; игровой код ограничивает их частоту.</p>\n            <p>Рекламный SDK может собирать и передавать Google и участникам рекламной обработки следующие сведения:</p>\n            <ul><li>IP-адрес и приблизительный регион, определённый по нему;</li><li>взаимодействия с приложением и рекламой, например запуски, нажатия и просмотры;</li><li>технические сведения о работе приложения, SDK и устройства;</li><li>рекламный идентификатор Android, App Set ID и другие доступные идентификаторы.</li></ul>\n            <p>Они используются для показа и измерения рекламы, технического анализа и предотвращения мошенничества. Объём обработки зависит от настроек устройства, доступных идентификаторов, региона и выбора согласия. Неперсонализированная или ограниченная реклама не обязательно означает отсутствие обработки технических данных.</p>\n            <p>Разработчик может видеть отчёты AdMob о показах, работе рекламы и доходах. MindTable не использует отдельный собственный сервис аналитики поведения игроков. Подробнее: <a href=\"https://policies.google.com/privacy?hl=ru\">политика Google</a>, <a href=\"https://policies.google.com/technologies/ads?hl=ru\">рекламные технологии Google</a> и <a href=\"https://developers.google.com/admob/android/privacy/play-data-disclosure?hl=ru\">раскрытие данных Mobile Ads SDK</a>.</p>"
+      },
+      {
+        "id": "purposes",
+        "title": "Цели и основания обработки",
+        "body": "<p>Основные цели — выполнение выбранных вами игровых функций, сохранение локальных предпочтений, соединение с соперником, финансирование приложения рекламой, соблюдение рекламного выбора и ответ на обращения.</p>\n            <p>Там, где применимое право требует правового основания, обработка для запрошенных функций необходима для предоставления этих функций; обработка, требующая согласия, выполняется на основании вашего выбора; безопасность и ответ на обращения могут опираться на законный интерес с учётом ваших прав; обязательная обработка — на требования закона. Google и другие поставщики объясняют основания своей обработки в собственных политиках.</p>\n            <p><strong>Чтение этой политики или использование игры само по себе не заменяет отдельного согласия</strong> на обработку, для которой оно требуется.</p>"
+      },
+      {
+        "id": "sharing",
+        "title": "Получатели данных",
+        "body": "<ul><li><strong>Другие локальные устройства и соперник:</strong> сведения обнаружения комнаты и данные партии, необходимые для соединения и игры.</li><li><strong>Google и рекламные поставщики:</strong> данные рекламы и согласия в соответствии с настройками и доступными формами UMP. При наличии формы сведения об участвующих поставщиках доступны в ней.</li><li><strong>GitHub:</strong> размещение этого сайта и обработка обращений, которые вы отправляете через GitHub.</li><li><strong>Уполномоченные органы:</strong> только сведения, которыми располагает разработчик, если их предоставление требуется применимым законом.</li></ul>\n            <p>Игровой код не отправляет локальные сохранения, список Bluetooth-сопряжений или ходы на сервер разработчика для продажи либо построения рекламных профилей. Отдельные рекламные передачи данных могут подпадать под понятие «sharing» в законодательстве отдельных регионов; доступные варианты ограничения определяются применимым правом и рекламными настройками.</p>"
+      },
+      {
+        "id": "retention",
+        "title": "Сроки хранения",
+        "body": "<ul><li><strong>Локальные настройки и рекламные счётчики</strong> сохраняются до их удаления, очистки данных приложения или удаления приложения; резервные копии могут регулироваться системой устройства.</li><li><strong>Незавершённые локальные партии</strong> хранятся до замены новым сохранением или удаления игровым механизмом, например при завершении партии, либо до очистки данных приложения.</li><li><strong>Сведения обнаружения и соединения</strong> используются в оперативной памяти во время поиска комнаты и сессии. Список комнат очищается при прекращении обнаружения, соединение — при отключении. Системный список Bluetooth-сопряжений хранится самим Android.</li><li><strong>Данные Google</strong> хранятся по правилам соответствующего сервиса, с учётом назначений, настроек и юридических обязанностей. Разработчик не устанавливает единый срок для данных на серверах Google. См. <a href=\"https://policies.google.com/technologies/retention?hl=ru\">правила хранения Google</a>.</li><li><strong>Обращения</strong> используются столько, сколько нужно для ответа, решения вопроса и соблюдения обязательных требований. Публичные сообщения GitHub могут оставаться доступными по правилам платформы; закрытие обращения не удаляет его автоматически.</li></ul>"
+      },
+      {
+        "id": "deletion",
+        "title": "Удаление данных",
+        "body": "<p>У MindTable нет аккаунта, который нужно удалять. Для удаления локальных данных:</p>\n            <ol><li>Сбросьте настройки в игре, если нужно вернуть игровые предпочтения к значениям по умолчанию. Такой сброс не является удалением всех сохранений и данных SDK.</li><li>Для удаления всех данных приложения на Android откройте <strong>Настройки → Приложения → MindTable → Хранилище → Очистить данные / Очистить хранилище</strong>. Названия пунктов могут отличаться. Это удаляет локальные сохранения, настройки и данные SDK из области приложения.</li><li>Удаление приложения также удаляет его локальные данные в соответствии с правилами Android. Проверьте системные резервные копии, если нужно исключить последующее восстановление.</li></ol>\n            <p>На компьютере можно удалить каталог пользовательских данных MindTable средствами операционной системы. Очистка приложения не удаляет уже переданные данные Google, GitHub или копии у соперника. Для них используйте настройки и способы обращения соответствующего сервиса. Если вы передали сведения разработчику в обращении, запросить их удаление можно через <a href=\"#contact\">контакт ниже</a>.</p>"
+      },
+      {
+        "id": "choices",
+        "title": "Выбор и ваши права",
+        "body": "<p>Если для вашего региона или рекламной конфигурации требуется согласие, UMP показывает соответствующую форму. Доступную кнопку рекламной конфиденциальности в настройках MindTable можно использовать для изменения выбора; она отображается, когда UMP сообщает о необходимости такого доступа.</p>\n            <p>Вы можете управлять рекламным идентификатором в настройках Android, отключить разрешение Bluetooth и прекратить сетевую игру. Отзыв согласия относится к будущей обработке и сам по себе не отменяет уже выполненную законную обработку.</p>\n            <p>В зависимости от применимого закона вы можете иметь права на доступ, исправление, удаление, ограничение обработки, перенос данных, возражение, отзыв согласия и обращение в орган по защите данных. Свяжитесь с разработчиком по поводу данных, которыми он располагает; для данных, самостоятельно обрабатываемых Google или GitHub, также используйте их каналы конфиденциальности. Для ответа может потребоваться минимальная информация, позволяющая найти ваше обращение и подтвердить полномочия, без избыточных документов.</p>"
+      },
+      {
+        "id": "children",
+        "title": "Несовершеннолетние",
+        "body": "<p>MindTable — приложение с настольными играми. В игре нет регистрации, детского профиля или запроса даты рождения. Разработчик не запрашивает у детей имя, телефон, адрес или другие подобные сведения для игры.</p>\n            <p>Родителям и законным представителям рекомендуется проверять разрешения и рекламные настройки устройства. Если вы считаете, что ребёнок передал разработчику персональные сведения, сообщите об этом через контакт ниже, не публикуя сами сведения в открытом доступе.</p>\n            <p>Отсутствие запроса возраста не исключает обработку технических данных рекламным SDK. Доступные варианты рекламы и согласия зависят от применимых требований, настроек сборки и рекламных сервисов.</p>"
+      },
+      {
+        "id": "security",
+        "title": "Безопасность и место обработки",
+        "body": "<p>Локальные файлы находятся в области приложения, защищаемой средствами операционной системы. Google сообщает, что данные Mobile Ads SDK передаются с использованием TLS. Google и GitHub могут обрабатывать данные в странах, отличающихся от вашей; применимые механизмы защиты и международной передачи описаны в их политиках.</p>\n            <div class=\"callout\"><p><strong>Для локальной игры используйте доверенную сеть и устройства.</strong> Шестизначный код — идентификатор комнаты, а не секретный пароль. Обнаружение по Wi‑Fi и обмен игровой информацией не имеют отдельного сквозного шифрования MindTable. Bluetooth использует механизмы сопряжения и защиты операционной системы.</p></div>\n            <p>Ни один способ хранения или передачи не обеспечивает абсолютной безопасности. Разработчик не запрашивает пароли, платёжные данные или документы через игру. Не передавайте их в публичных обращениях.</p>"
+      },
+      {
+        "id": "website",
+        "title": "Этот сайт и внешние ссылки",
+        "body": "<p>Этот сайт представляет собой статические страницы. В его коде нет рекламных SDK, аналитики, пикселей отслеживания, форм сбора данных, cookies или сохранения данных в localStorage. Переключение языка открывает обычную страницу; печать выполняется средствами браузера.</p>\n            <p>Сайт размещается на <strong>GitHub Pages</strong>. GitHub может обрабатывать технические данные запроса, например IP-адрес, сведения браузера и время доступа, для предоставления и защиты своих сервисов. Подробности — в <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">политике GitHub</a>.</p>\n            <p>При переходе на Google, GitHub или Google Play применяются правила выбранного сервиса. Сведения, которые вы добровольно отправляете через GitHub Issues, включая имя аккаунта и текст обращения, обрабатываются GitHub и могут быть видны публично.</p>"
+      },
+      {
+        "id": "contact",
+        "title": "Изменения и связь",
+        "body": "<p>При изменении функций или способов обработки разработчик обновляет эту страницу и дату редакции. Существенные изменения, требующие нового согласия или отдельного уведомления, должны сопровождаться соответствующим механизмом в приложении. Текущая редакция: <strong>1.0, 6 октября 2026 года</strong>. История текста доступна в <a href=\"https://github.com/Zigger06/MindTablePrivacy/commits/main/\">репозитории политики</a>.</p>\n            <div class=\"contact-box\"><h3>Контакт по конфиденциальности</h3><p><strong>Разработчик: Zigger06 · MindTable</strong></p><p>Для вопроса или запроса по вашим данным создайте обращение в репозитории MindTablePrivacy.</p><a class=\"contact-link\" href=\"https://github.com/Zigger06/MindTablePrivacy/issues/new?title=MindTable%20privacy%20request\">Отправить запрос через GitHub</a><p class=\"small\">Для отправки нужен аккаунт GitHub. Обращение публичное: не добавляйте идентификаторы устройств, документы, адреса, пароли или персональные сведения ребёнка. Начните с общего описания вопроса и запроса безопасного способа дальнейшего общения.</p></div>\n            <p class=\"small\">Русская, английская и таджикская версии описывают одинаковые практики. При расхождении перевода ориентиром для уточнения служит английская редакция; это не ограничивает права, предоставленные применимым законом.</p>"
+      }
+    ]
+  },
+  "en": {
+    "title": "Privacy Policy",
+    "description": "How MindTable handles data: local play, Wi‑Fi and Bluetooth, advertising, and the choices you have over your privacy.",
+    "eyebrow": "MindTable / Privacy",
+    "effective_label": "Effective · last updated",
+    "date": "October 6, 2026",
+    "version": "Policy version 1.0",
+    "skip": "Skip to the privacy policy",
+    "language_label": "Policy language",
+    "summary_label": "Key information",
+    "toc_label": "On this page",
+    "print": "Print / save as PDF",
+    "contact_button": "Privacy questions",
+    "footer": "English version",
+    "history": "Revision history",
+    "intro": "MindTable lets you play Chess, Russian Checkers, Go, and Nine Men’s Morris on one device or with a nearby opponent. This policy explains what information the app handles, what stays on your device, what is shared with other players and advertising services, and how you can manage your data.",
+    "summary": [
+      {
+        "title": "No registration",
+        "text": "Playing does not require a MindTable account, name, phone number, or email."
+      },
+      {
+        "title": "Play nearby",
+        "text": "Wi‑Fi and Bluetooth connect devices directly, without a developer-operated game server."
+      },
+      {
+        "title": "Advertising explained",
+        "text": "AdMob may handle technical data. Consent choices are available where required."
+      }
+    ],
+    "sections": [
+      {
+        "id": "about",
+        "title": "The app and its developer",
+        "body": "<p>This policy covers <strong>MindTable</strong>, its Android version, local desktop versions, and this website. <strong>Zigger06</strong> is the independent developer of MindTable. Developer profile: <a href=\"https://github.com/Zigger06\">github.com/Zigger06</a>. The privacy inquiry mechanism is provided in <a href=\"#contact\">section 14</a>.</p>\n            <p>MindTable does not create user accounts, require Google or social sign-in, or maintain its own server database of player profiles or matches. Advertising functions apply to Android builds in which advertising is enabled.</p>\n            <p>The game code does not request your contacts, messages, photos, microphone, camera, or precise GPS location. This does not mean that no data is processed: advertising and connection information are explained below.</p>"
+      },
+      {
+        "id": "local-data",
+        "title": "Information on your device",
+        "body": "<p>MindTable stores information in the app’s storage area to provide the features you choose.</p>\n            <table class=\"data-table\"><thead><tr><th scope=\"col\">Category</th><th scope=\"col\">Information and purpose</th></tr></thead><tbody>\n            <tr><td><strong>Preferences</strong></td><td>Language, sound, music, vibration, animation, board and piece appearance, and Go board size. These keep your preferences between launches.</td></tr>\n            <tr><td><strong>Unfinished local match</strong></td><td>Board position, move history, match state, and save time, to resume a game on one device. Network matches are not saved through this mechanism.</td></tr>\n            <tr><td><strong>Ad frequency limits</strong></td><td>Completed-match counters and the time of the last ad, to limit full-screen advertising.</td></tr>\n            <tr><td><strong>Consent choices</strong></td><td>The advertising SDK may store consent status and preferences and contact Google to check them.</td></tr>\n            </tbody></table>\n            <p>The developer does not automatically receive your preferences or local saves. Device or operating-system backup and restoration are governed by their own settings and terms.</p>"
+      },
+      {
+        "id": "multiplayer",
+        "title": "Wi‑Fi and Bluetooth",
+        "body": "<h3>Wi‑Fi play</h3><p>During room discovery and a network match, devices exchange local IP addresses, ports, the host device model or label, a six-digit room code, a game identifier, connection messages, moves, and board state. MindTable sends discovery requests on the local network; the host responds with room information. This information can be accessed by other participants on that local network.</p>\n            <h3>Bluetooth play</h3><p>To connect, the game accesses already paired phones and computers, including their Bluetooth names and addresses, and uses them to find a room. The room code, connection messages, and game actions are exchanged directly between connected devices. The game code does not upload the paired-device list to a developer server or AdMob.</p>\n            <p>The developer does not receive the move stream for these matches. Your opponent receives game state and may independently keep a copy, for example by taking a screenshot. The advertising SDK may separately access the internet while you use local game features.</p>"
+      },
+      {
+        "id": "permissions",
+        "title": "Android permissions",
+        "body": "<ul><li><strong>Internet and network state:</strong> advertising, consent checks, and network connections.</li><li><strong>Wi‑Fi state and multicast discovery:</strong> finding game rooms on the local network.</li><li><strong>Bluetooth / Nearby devices:</strong> connecting to already paired devices. On applicable Android versions, the app requests the Bluetooth Connect permission.</li></ul>\n            <p>System labels vary by Android version. The game does not use Bluetooth scanning to determine location or request precise location permission. Denying Bluetooth permission disables that connection option but does not prevent play on one device. You can change permissions in Android settings.</p>"
+      },
+      {
+        "id": "advertising",
+        "title": "Advertising and Google services",
+        "body": "<p>The Android version uses <strong>Google AdMob / Google Mobile Ads SDK</strong> and <strong>Google User Messaging Platform (UMP)</strong>. Ads may include a home-screen banner and occasional displays after completed matches; the game limits their frequency.</p>\n            <p>The advertising SDK may collect and share with Google and parties involved in advertising:</p>\n            <ul><li>IP address and approximate region inferred from it;</li><li>app and ad interactions, such as launches, taps, and views;</li><li>technical information about app, SDK, and device performance;</li><li>Android advertising ID, App Set ID, and other available identifiers.</li></ul>\n            <p>Purposes include serving and measuring ads, technical analysis, and fraud prevention. Processing varies with device settings, identifier availability, region, and consent choices. Non-personalized or limited ads do not necessarily mean that no technical information is processed.</p>\n            <p>The developer may access AdMob reports about impressions, ad performance, and revenue. MindTable does not use a separate developer-operated behavioral analytics service. See <a href=\"https://policies.google.com/privacy\">Google’s Privacy Policy</a>, <a href=\"https://policies.google.com/technologies/ads\">Google advertising technologies</a>, and <a href=\"https://developers.google.com/admob/android/privacy/play-data-disclosure\">Mobile Ads SDK data disclosure</a>.</p>"
+      },
+      {
+        "id": "purposes",
+        "title": "Purposes and legal bases",
+        "body": "<p>The main purposes are to provide the game functions you request, remember local preferences, connect you with an opponent, fund the app through advertising, respect advertising choices, and respond to inquiries.</p>\n            <p>Where applicable law requires a legal basis, processing for requested functions is necessary to provide those functions; processing that requires consent relies on your choice; security and responding to inquiries may rely on legitimate interests balanced against your rights; mandatory processing relies on legal obligations. Google and other providers explain the bases for their own processing in their policies.</p>\n            <p><strong>Reading this policy or using the game does not itself replace separate consent</strong> for processing that requires it.</p>"
+      },
+      {
+        "id": "sharing",
+        "title": "Who receives information",
+        "body": "<ul><li><strong>Nearby devices and your opponent:</strong> room-discovery and match information needed to connect and play.</li><li><strong>Google and advertising providers:</strong> advertising and consent information according to configuration and available UMP forms. Where a form is available, information about participating providers can be found in it.</li><li><strong>GitHub:</strong> hosting this website and handling inquiries you submit through GitHub.</li><li><strong>Competent authorities:</strong> information held by the developer, only where disclosure is required by applicable law.</li></ul>\n            <p>The game code does not send local saves, Bluetooth pairing lists, or moves to a developer server to sell them or build advertising profiles. Certain advertising data transfers may be considered “sharing” under some regional laws; applicable law and advertising settings determine available opt-out choices.</p>"
+      },
+      {
+        "id": "retention",
+        "title": "How long information is kept",
+        "body": "<ul><li><strong>Local preferences and ad counters</strong> remain until deleted, app storage is cleared, or the app is uninstalled; system backups may be managed separately.</li><li><strong>Unfinished local matches</strong> remain until replaced by a new save, removed by the game, for example when a match finishes, or app storage is cleared.</li><li><strong>Discovery and connection information</strong> is used in memory during room discovery and a session. Room lists are cleared when discovery stops, and connections close on disconnection. Android itself retains the system’s Bluetooth pairing list.</li><li><strong>Google data</strong> is retained under the relevant service’s rules, considering purposes, settings, and legal duties. The developer does not set a universal retention period for Google’s servers. See <a href=\"https://policies.google.com/technologies/retention\">Google’s retention practices</a>.</li><li><strong>Inquiries</strong> are used as needed to respond, resolve the request, and meet mandatory obligations. Public GitHub messages may remain under the platform’s rules; closing an issue does not automatically delete it.</li></ul>"
+      },
+      {
+        "id": "deletion",
+        "title": "Deleting your information",
+        "body": "<p>There is no MindTable account to delete. To remove local information:</p>\n            <ol><li>Reset settings in the game to restore default game preferences. This is not a deletion of all saved matches or SDK data.</li><li>To remove all app data on Android, open <strong>Settings → Apps → MindTable → Storage → Clear data / Clear storage</strong>. Labels may differ. This removes saves, preferences, and SDK data from the app’s local storage.</li><li>Uninstalling also removes local app data according to Android’s rules. Check system backups if you want to prevent later restoration.</li></ol>\n            <p>On a computer, you can remove MindTable’s user-data directory using operating-system tools. Clearing the app does not delete data already sent to Google or GitHub or copies kept by an opponent. Use the relevant service’s controls and contact channels for those records. If you provided information to the developer in an inquiry, you can request deletion through the <a href=\"#contact\">contact mechanism below</a>.</p>"
+      },
+      {
+        "id": "choices",
+        "title": "Your choices and rights",
+        "body": "<p>Where your region or advertising configuration requires consent, UMP displays the appropriate form. Use the available advertising privacy button in MindTable settings to revise your choice; it appears when UMP indicates that an entry point is required.</p>\n            <p>You can manage your advertising ID in Android settings, deny Bluetooth permission, and end network play. Withdrawal affects future processing and does not by itself invalidate lawful processing already completed.</p>\n            <p>Depending on applicable law, you may have rights of access, correction, deletion, restriction, portability, objection, consent withdrawal, and complaint to a data-protection authority. Contact the developer about information the developer holds; for information independently processed by Google or GitHub, also use their privacy channels. A response may require the minimum information needed to locate your inquiry and verify authority, without excessive documentation.</p>"
+      },
+      {
+        "id": "children",
+        "title": "Younger players",
+        "body": "<p>MindTable is a board-game app. It has no registration, child profile, or date-of-birth request. The developer does not ask children for a name, phone number, address, or similar information to play.</p>\n            <p>Parents and guardians should review device permissions and advertising controls. If you believe a child has provided personal information to the developer, use the contact mechanism below without publishing that information.</p>\n            <p>Not asking for age does not prevent technical information from being handled by the advertising SDK. Available advertising and consent options depend on applicable requirements, build settings, and advertising services.</p>"
+      },
+      {
+        "id": "security",
+        "title": "Security and processing locations",
+        "body": "<p>Local files are kept in the app storage area protected by operating-system controls. Google states that Mobile Ads SDK data is encrypted in transit using TLS. Google and GitHub may process information in countries other than yours; their policies explain applicable safeguards and international-transfer mechanisms.</p>\n            <div class=\"callout\"><p><strong>Use trusted networks and devices for local play.</strong> A six-digit code identifies a room; it is not a secret password. Wi‑Fi discovery and game information do not have separate MindTable end-to-end encryption. Bluetooth uses the operating system’s pairing and security mechanisms.</p></div>\n            <p>No storage or transmission method provides absolute security. The developer does not ask for passwords, payment information, or identity documents through the game. Do not provide them in public inquiries.</p>"
+      },
+      {
+        "id": "website",
+        "title": "This website and external links",
+        "body": "<p>This website consists of static pages. Its code contains no advertising SDKs, analytics, tracking pixels, data-collection forms, cookies, or localStorage writes. Changing language opens an ordinary page; printing is handled by your browser.</p>\n            <p>The website is hosted on <strong>GitHub Pages</strong>. GitHub may handle request information, such as IP address, browser information, and access time, to provide and secure its services. See <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">GitHub’s Privacy Statement</a>.</p>\n            <p>Following links to Google, GitHub, or Google Play brings you under the selected service’s policies. Information you voluntarily submit through GitHub Issues, including your account name and message, is handled by GitHub and may be publicly visible.</p>"
+      },
+      {
+        "id": "contact",
+        "title": "Updates and contact",
+        "body": "<p>When functions or data practices change, the developer updates this page and its revision date. Material changes requiring new consent or a separate notice must be accompanied by the relevant mechanism in the app. Current version: <strong>1.0, October 6, 2026</strong>. The text’s history is available in the <a href=\"https://github.com/Zigger06/MindTablePrivacy/commits/main/\">policy repository</a>.</p>\n            <div class=\"contact-box\"><h3>Privacy contact</h3><p><strong>Developer: Zigger06 · MindTable</strong></p><p>Submit a question or request about your information through an issue in the MindTablePrivacy repository.</p><a class=\"contact-link\" href=\"https://github.com/Zigger06/MindTablePrivacy/issues/new?title=MindTable%20privacy%20request\">Submit a request on GitHub</a><p class=\"small\">A GitHub account is required to submit an issue. Issues are public: do not include device identifiers, identity documents, addresses, passwords, or a child’s personal information. Start with a general description and ask for a safe way to continue the conversation.</p></div>\n            <p class=\"small\">The Russian, English, and Tajik versions describe the same practices. If a translation differs, the English version is the reference for clarification; this does not limit rights granted by applicable law.</p>"
+      }
+    ]
+  },
+  "tg": {
+    "title": "Сиёсати махфият",
+    "description": "MindTable маълумотро чӣ гуна коркард мекунад: бозии маҳаллӣ, Wi‑Fi ва Bluetooth, таблиғ ва роҳҳои идораи махфияти шумо.",
+    "eyebrow": "MindTable / Махфият",
+    "effective_label": "Оғози амал · навсозӣ",
+    "date": "6 октябри соли 2026",
+    "version": "Таҳрири 1.0",
+    "skip": "Гузаштан ба матни сиёсат",
+    "language_label": "Забони сиёсат",
+    "summary_label": "Маълумоти асосӣ",
+    "toc_label": "Мундариҷа",
+    "print": "Чоп / нигоҳдорӣ ҳамчун PDF",
+    "contact_button": "Савол дар бораи маълумот",
+    "footer": "Нусхаи тоҷикӣ",
+    "history": "Таърихи тағйирот",
+    "intro": "MindTable имкон медиҳад, ки шоҳмот, шашкаи русӣ, го ва бозии осиёбро дар як дастгоҳ ё бо рақиби наздик бозӣ кунед. Ин сиёсат мефаҳмонад, ки барнома кадом маълумотро коркард мекунад, чӣ дар дастгоҳ мемонад, чӣ ба бозигари дигар ва хадамоти таблиғӣ дода мешавад ва шумо маълумоти худро чӣ гуна идора карда метавонед.",
+    "summary": [
+      {
+        "title": "Бе бақайдгирӣ",
+        "text": "Барои бозӣ ҳисоби MindTable, ном, рақами телефон ё email лозим нест."
+      },
+      {
+        "title": "Бозӣ бо рақиби наздик",
+        "text": "Wi‑Fi ва Bluetooth дастгоҳҳоро мустақим мепайванданд, бе сервери бозии таҳиягар."
+      },
+      {
+        "title": "Таблиғ равшан шарҳ дода мешавад",
+        "text": "AdMob метавонад маълумоти техникиро коркард кунад. Интихоби розигӣ дар ҳолатҳои зарурӣ дастрас аст."
+      }
+    ],
+    "sections": [
+      {
+        "id": "about",
+        "title": "Барнома ва таҳиягар",
+        "body": "<p>Ин сиёсат ба барномаи <strong>MindTable</strong>, нусхаи Android, нусхаҳои маҳаллӣ барои компютер ва ҳамин сомона дахл дорад. <strong>Zigger06</strong> таҳиягари мустақили MindTable мебошад. Профили таҳиягар: <a href=\"https://github.com/Zigger06\">github.com/Zigger06</a>. Роҳи муроҷиат оид ба махфият дар <a href=\"#contact\">бахши 14</a> оварда шудааст.</p>\n            <p>MindTable ҳисоби корбарӣ намесозад, воридшавӣ тавассути Google ё шабакаҳои иҷтимоиро талаб намекунад ва пойгоҳи серверии худро барои профилҳо ё партияҳо надорад. Вазифаҳои таблиғӣ ба нусхаҳои Android дахл доранд, ки дар онҳо таблиғ фаъол аст.</p>\n            <p>Коди бозӣ тамосҳо, паёмҳо, аксҳо, микрофон, камера ё ҷойгиршавии дақиқи GPS-и шуморо дархост намекунад. Ин маънои тамоман коркард нашудани маълумотро надорад: маълумоти таблиғ ва пайвастшавӣ дар поён шарҳ дода мешавад.</p>"
+      },
+      {
+        "id": "local-data",
+        "title": "Маълумот дар дастгоҳ",
+        "body": "<p>MindTable маълумотро дар қисми нигоҳдории барнома барои иҷрои вазифаҳои интихобкардаи шумо нигоҳ медорад.</p>\n            <table class=\"data-table\"><thead><tr><th scope=\"col\">Навъи маълумот</th><th scope=\"col\">Мазмун ва мақсад</th></tr></thead><tbody>\n            <tr><td><strong>Танзимот</strong></td><td>Забон, садо, мусиқӣ, ларзиш, аниматсия, намуди тахта ва муҳраҳо, андозаи тахтаи го. Барои нигоҳ доштани интихоби шумо.</td></tr>\n            <tr><td><strong>Партияи маҳаллии нотамом</strong></td><td>Ҷойгиршавии муҳраҳо, таърихи ҳаракатҳо, ҳолати партия ва вақти нигоҳдорӣ. Барои идомаи бозӣ дар як дастгоҳ. Партияҳои шабакавӣ бо ин механизм нигоҳ дошта намешаванд.</td></tr>\n            <tr><td><strong>Маҳдудияти таблиғ</strong></td><td>Шумораи партияҳои анҷомёфта ва вақти нишон додани таблиғи охирин. Барои маҳдуд кардани басомади таблиғи тамоми экран.</td></tr>\n            <tr><td><strong>Интихоби розигӣ</strong></td><td>SDK-и таблиғ метавонад ҳолат ва танзимоти розигиро нигоҳ дорад ва барои санҷиши онҳо ба Google муроҷиат кунад.</td></tr>\n            </tbody></table>\n            <p>Таҳиягар танзимот ё файлҳои маҳаллии шуморо худкор намегирад. Нусхабардории эҳтиётӣ ва барқарорсозии дастгоҳ ё низоми амалиётӣ аз танзимот ва шартҳои худи онҳо вобастаанд.</p>"
+      },
+      {
+        "id": "multiplayer",
+        "title": "Wi‑Fi ва Bluetooth",
+        "body": "<h3>Бозӣ тавассути Wi‑Fi</h3><p>Ҳангоми ҷустуҷӯи ҳуҷра ва бозии шабакавӣ дастгоҳҳо суроғаҳои маҳаллии IP, портҳо, модел ё номи дастгоҳи мизбон, рамзи шашрақамаи ҳуҷра, шиносаи бозӣ, паёмҳои техникии пайвастшавӣ, ҳаракатҳо ва ҳолати тахтаро мубодила мекунанд. MindTable ба шабакаи маҳаллӣ дархостҳои ҷустуҷӯ мефиристад; мизбон бо маълумоти ҳуҷра ҷавоб медиҳад. Ин маълумот барои иштирокчиёни дигари ҳамон шабакаи маҳаллӣ дастрас буда метавонад.</p>\n            <h3>Бозӣ тавассути Bluetooth</h3><p>Барои пайвастшавӣ бозӣ рӯйхати телефонҳо ва компютерҳои қаблан ҷуфтшударо, аз ҷумла номҳо ва суроғаҳои Bluetooth-и онҳоро, истифода мебарад. Рамзи ҳуҷра, паёмҳои техникӣ ва амалҳои бозӣ мустақим байни дастгоҳҳои пайвастшуда мубодила мешаванд. Коди бозӣ рӯйхати дастгоҳҳои ҷуфтшударо ба сервери таҳиягар ё AdMob намефиристад.</p>\n            <p>Таҳиягар ҷараёни ҳаракатҳои ин партияҳоро намегирад. Рақиб ҳолати бозиро мегирад ва метавонад онро мустақилона, масалан бо акси экран, нигоҳ дорад. SDK-и таблиғ ҳангоми истифодаи вазифаҳои маҳаллии бозӣ метавонад алоҳида ба интернет муроҷиат кунад.</p>"
+      },
+      {
+        "id": "permissions",
+        "title": "Иҷозатҳои Android",
+        "body": "<ul><li><strong>Интернет ва ҳолати шабака:</strong> таблиғ, санҷиши розигӣ ва пайвастшавии шабакавӣ.</li><li><strong>Ҳолати Wi‑Fi ва ҷустуҷӯи multicast:</strong> ёфтани ҳуҷраҳои бозӣ дар шабакаи маҳаллӣ.</li><li><strong>Bluetooth / «Дастгоҳҳои наздик»:</strong> пайвастшавӣ ба дастгоҳҳои қаблан ҷуфтшуда. Дар нусхаҳои мувофиқи Android иҷозати Bluetooth Connect дархост мешавад.</li></ul>\n            <p>Номи иҷозатҳо аз нусхаи Android вобаста аст. Бозӣ сканкунии Bluetooth-ро барои муайян кардани ҷойгиршавӣ истифода намебарад ва иҷозати ҷойгиршавии дақиқро намепурсад. Рад кардани иҷозати Bluetooth танҳо ин роҳи пайвастшавиро ғайрифаъол мекунад ва ба бозӣ дар як дастгоҳ монеъ намешавад. Иҷозатҳоро дар танзимоти Android тағйир додан мумкин аст.</p>"
+      },
+      {
+        "id": "advertising",
+        "title": "Таблиғ ва хадамоти Google",
+        "body": "<p>Нусхаи Android аз <strong>Google AdMob / Google Mobile Ads SDK</strong> ва <strong>Google User Messaging Platform (UMP)</strong> истифода мебарад. Таблиғ метавонад баннер дар менюи асосӣ ва намоишҳои алоҳида пас аз партияҳои анҷомёфтаро дар бар гирад; коди бозӣ басомади онҳоро маҳдуд мекунад.</p>\n            <p>SDK-и таблиғ метавонад маълумоти зеринро ҷамъоварӣ карда, ба Google ва иштирокчиёни коркарди таблиғ диҳад:</p>\n            <ul><li>суроғаи IP ва минтақаи тахминии аз он муайяншуда;</li><li>ҳамкорӣ бо барнома ва таблиғ, масалан оғоз, пахш ва тамошо;</li><li>маълумоти техникӣ дар бораи кори барнома, SDK ва дастгоҳ;</li><li>шиносаи таблиғии Android, App Set ID ва дигар шиносаҳои дастрас.</li></ul>\n            <p>Мақсадҳо нишон додан ва ченкунии таблиғ, таҳлили техникӣ ва пешгирии қаллобӣ мебошанд. Ҳаҷми коркард аз танзимоти дастгоҳ, дастрасии шиносаҳо, минтақа ва интихоби розигӣ вобаста аст. Таблиғи ғайришахсӣ ё маҳдуд ҳатман маънои коркард нашудани маълумоти техникиро надорад.</p>\n            <p>Таҳиягар метавонад ҳисоботи AdMob-ро дар бораи намоишҳо, кори таблиғ ва даромад бинад. MindTable хадамоти алоҳидаи таҳиягарро барои таҳлили рафтори бозигарон истифода намебарад. Нигаред: <a href=\"https://policies.google.com/privacy\">сиёсати Google</a>, <a href=\"https://policies.google.com/technologies/ads\">технологияҳои таблиғии Google</a> ва <a href=\"https://developers.google.com/admob/android/privacy/play-data-disclosure\">маълумоти Mobile Ads SDK</a>.</p>"
+      },
+      {
+        "id": "purposes",
+        "title": "Мақсадҳо ва асосҳои коркард",
+        "body": "<p>Мақсадҳои асосӣ иҷрои вазифаҳои интихобкардаи шумо, нигоҳдории танзимоти маҳаллӣ, пайвастшавӣ бо рақиб, маблағгузории барнома тавассути таблиғ, риояи интихоби таблиғ ва ҷавоб ба муроҷиатҳо мебошанд.</p>\n            <p>Агар қонуни татбиқшаванда асоси ҳуқуқиро талаб кунад, коркард барои вазифаҳои дархостшуда ба зарурати иҷрои онҳо такя мекунад; коркарди ниёзманд ба розигӣ — ба интихоби шумо; амният ва ҷавоб ба муроҷиатҳо метавонанд ба манфиати қонунӣ бо назардошти ҳуқуқҳои шумо такя кунанд; коркарди ҳатмӣ — ба талаботи қонун. Google ва дигар таъминкунандагон асосҳои коркарди худро дар сиёсатҳои худ шарҳ медиҳанд.</p>\n            <p><strong>Хондани ин сиёсат ё истифодаи бозӣ худ аз худ розигии алоҳидаро иваз намекунад</strong>, агар барои коркард чунин розигӣ зарур бошад.</p>"
+      },
+      {
+        "id": "sharing",
+        "title": "Гирандагони маълумот",
+        "body": "<ul><li><strong>Дастгоҳҳои маҳаллӣ ва рақиб:</strong> маълумоти ҷустуҷӯи ҳуҷра ва партия барои пайвастшавӣ ва бозӣ.</li><li><strong>Google ва таъминкунандагони таблиғ:</strong> маълумоти таблиғ ва розигӣ мувофиқи танзимот ва шаклҳои дастраси UMP. Агар шакл дастрас бошад, маълумоти таъминкунандагони иштирокчиро дар он дидан мумкин аст.</li><li><strong>GitHub:</strong> ҷойгиркунии ин сомона ва коркарди муроҷиатҳое, ки тавассути GitHub мефиристед.</li><li><strong>Мақомоти ваколатдор:</strong> танҳо маълумоти дар ихтиёри таҳиягар буда, агар пешниҳоди он тибқи қонуни татбиқшаванда ҳатмӣ бошад.</li></ul>\n            <p>Коди бозӣ файлҳои маҳаллӣ, рӯйхати ҷуфтшавии Bluetooth ё ҳаракатҳоро барои фурӯш ё сохтани профилҳои таблиғӣ ба сервери таҳиягар намефиристад. Баъзе интиқолҳои маълумоти таблиғӣ метавонанд тибқи қонунҳои минтақавӣ «sharing» ҳисоб шаванд; имкониятҳои маҳдудкунӣ аз қонуни татбиқшаванда ва танзимоти таблиғ вобастаанд.</p>"
+      },
+      {
+        "id": "retention",
+        "title": "Муҳлати нигоҳдорӣ",
+        "body": "<ul><li><strong>Танзимоти маҳаллӣ ва ҳисобкунакҳои таблиғ</strong> то ҳазф, тоза кардани маълумоти барнома ё нест кардани барнома нигоҳ дошта мешаванд; нусхаҳои эҳтиётиро низоми дастгоҳ метавонад алоҳида идора кунад.</li><li><strong>Партияҳои маҳаллии нотамом</strong> то иваз шудан бо файли нав, ҳазф аз ҷониби бозӣ, масалан баъди анҷоми партия, ё тоза кардани маълумоти барнома мемонанд.</li><li><strong>Маълумоти ҷустуҷӯ ва пайвастшавӣ</strong> дар хотираи оперативӣ ҳангоми ҷустуҷӯи ҳуҷра ва сессия истифода мешавад. Рӯйхати ҳуҷраҳо баъди қатъи ҷустуҷӯ тоза мешавад ва пайвастшавӣ ҳангоми ҷудошавӣ баста мешавад. Рӯйхати системавии ҷуфтшавии Bluetooth-ро худи Android нигоҳ медорад.</li><li><strong>Маълумоти Google</strong> тибқи қоидаҳои хадамоти дахлдор бо назардошти мақсадҳо, танзимот ва уҳдадориҳои ҳуқуқӣ нигоҳ дошта мешавад. Таҳиягар барои серверҳои Google муҳлати ягона намегузорад. Нигаред: <a href=\"https://policies.google.com/technologies/retention\">қоидаҳои нигоҳдории Google</a>.</li><li><strong>Муроҷиатҳо</strong> ба қадри зарурат барои ҷавоб, ҳалли масъала ва иҷрои талаботи ҳатмӣ истифода мешаванд. Паёмҳои кушодаи GitHub метавонанд тибқи қоидаҳои платформа дастрас монанд; бастани муроҷиат онро худкор ҳазф намекунад.</li></ul>"
+      },
+      {
+        "id": "deletion",
+        "title": "Ҳазфи маълумот",
+        "body": "<p>MindTable ҳисоби корбарӣ надорад, ки онро ҳазф кардан лозим шавад. Барои ҳазфи маълумоти маҳаллӣ:</p>\n            <ol><li>Танзимотро дар бозӣ ба ҳолати пешфарз баргардонед, агар танҳо барқарор кардани интихоби бозӣ лозим бошад. Ин амал ҳамаи партияҳои нигоҳдошташуда ва маълумоти SDK-ро ҳазф намекунад.</li><li>Барои ҳазфи ҳамаи маълумоти барнома дар Android ба <strong>Танзимот → Барномаҳо → MindTable → Хотира → Тоза кардани маълумот / Clear storage</strong> гузаред. Номҳо метавонанд фарқ кунанд. Ин амал файлҳои бозӣ, танзимот ва маълумоти SDK-ро аз нигоҳдории маҳаллии барнома тоза мекунад.</li><li>Нест кардани барнома низ маълумоти маҳаллиро тибқи қоидаҳои Android ҳазф мекунад. Агар барқарорсозии баъдиро намехоҳед, нусхаҳои эҳтиётии системаро санҷед.</li></ol>\n            <p>Дар компютер феҳристи маълумоти корбарии MindTable-ро бо воситаҳои низоми амалиётӣ ҳазф кардан мумкин аст. Тоза кардани барнома маълумоти қаблан ба Google ё GitHub фиристодашуда ё нусхаҳои рақибро ҳазф намекунад. Барои онҳо аз танзимот ва роҳҳои муроҷиати хадамоти дахлдор истифода баред. Агар дар муроҷиат ба таҳиягар маълумот дода бошед, ҳазфи онро тавассути <a href=\"#contact\">роҳи тамоси поён</a> дархост кунед.</p>"
+      },
+      {
+        "id": "choices",
+        "title": "Интихоб ва ҳуқуқҳои шумо",
+        "body": "<p>Агар минтақа ё танзимоти таблиғ розигиро талаб кунад, UMP шакли дахлдорро нишон медиҳад. Барои тағйир додани интихоби худ аз тугмаи дастраси махфияти таблиғ дар танзимоти MindTable истифода баред; он вақте пайдо мешавад, ки UMP зарурати чунин дастрасиро муайян кунад.</p>\n            <p>Шумо метавонед шиносаи таблиғиро дар танзимоти Android идора кунед, иҷозати Bluetooth-ро рад намоед ва бозии шабакавиро қатъ кунед. Бозхондани розигӣ ба коркарди оянда дахл дорад ва худ аз худ коркарди қонунии қаблан анҷомшударо беэътибор намекунад.</p>\n            <p>Вобаста ба қонуни татбиқшаванда шумо метавонед ҳуқуқи дастрасӣ, ислоҳ, ҳазф, маҳдудкунӣ, интиқолпазирӣ, эътироз, бозхондани розигӣ ва шикоят ба мақоми ҳифзи маълумот дошта бошед. Дар бораи маълумоти дар ихтиёри таҳиягар буда ба ӯ муроҷиат кунед; барои маълумоте, ки Google ё GitHub мустақилона коркард мекунанд, аз роҳҳои махфияти онҳо низ истифода баред. Барои ҷавоб метавонад маълумоти ҳадди ақал барои ёфтани муроҷиат ва тасдиқи ваколат лозим шавад, бе ҳуҷҷатҳои зиёдатӣ.</p>"
+      },
+      {
+        "id": "children",
+        "title": "Бозигарони ноболиғ",
+        "body": "<p>MindTable барномаи бозиҳои рӯйимизӣ мебошад. Дар он бақайдгирӣ, профили кӯдак ё дархости санаи таваллуд нест. Таҳиягар барои бозӣ аз кӯдакон ном, рақами телефон, суроға ё маълумоти монанд намепурсад.</p>\n            <p>Ба падару модар ва намояндагони қонунӣ тавсия мешавад, ки иҷозатҳо ва танзимоти таблиғии дастгоҳро санҷанд. Агар гумон кунед, ки кӯдак ба таҳиягар маълумоти шахсӣ додааст, тавассути роҳи тамоси поён хабар диҳед ва худи маълумотро дар ҷойи кушода нанависед.</p>\n            <p>Дархост накардани синну сол коркарди маълумоти техникиро аз ҷониби SDK-и таблиғ истисно намекунад. Имкониятҳои таблиғ ва розигӣ аз талаботи татбиқшаванда, танзимоти нусха ва хадамоти таблиғӣ вобастаанд.</p>"
+      },
+      {
+        "id": "security",
+        "title": "Амният ва ҷойи коркард",
+        "body": "<p>Файлҳои маҳаллӣ дар қисми нигоҳдории барнома ҷойгиранд, ки воситаҳои низоми амалиётӣ онро ҳифз мекунанд. Google мегӯяд, ки маълумоти Mobile Ads SDK ҳангоми интиқол бо TLS рамзгузорӣ мешавад. Google ва GitHub метавонанд маълумотро берун аз кишвари шумо коркард кунанд; чораҳои ҳифз ва интиқоли байналмилалӣ дар сиёсатҳои онҳо шарҳ дода шудаанд.</p>\n            <div class=\"callout\"><p><strong>Барои бозии маҳаллӣ шабака ва дастгоҳҳои боэътимодро истифода баред.</strong> Рамзи шашрақама шиносаи ҳуҷра аст, на гузарвожаи махфӣ. Ҷустуҷӯи Wi‑Fi ва маълумоти бозӣ рамзгузории алоҳидаи саросарии MindTable надоранд. Bluetooth механизмҳои ҷуфтшавӣ ва амнияти низоми амалиётиро истифода мебарад.</p></div>\n            <p>Ҳеҷ роҳи нигоҳдорӣ ё интиқол амнияти комилро кафолат намедиҳад. Таҳиягар тавассути бозӣ гузарвожа, маълумоти пардохтӣ ё ҳуҷҷати шахсиятро намепурсад. Онҳоро дар муроҷиатҳои кушода нафиристед.</p>"
+      },
+      {
+        "id": "website",
+        "title": "Ин сомона ва пайвандҳо",
+        "body": "<p>Ин сомона аз саҳифаҳои статикӣ иборат аст. Дар коди он SDK-и таблиғ, таҳлилгарӣ, пикселҳои пайгирӣ, шаклҳои ҷамъоварии маълумот, cookies ё сабти localStorage нестанд. Иваз кардани забон саҳифаи одиро мекушояд; чопро браузер иҷро мекунад.</p>\n            <p>Сомона дар <strong>GitHub Pages</strong> ҷойгир мешавад. GitHub метавонад маълумоти техникии дархост, масалан суроғаи IP, маълумоти браузер ва вақти дастрасиро барои пешниҳод ва ҳифзи хадамоташ коркард кунад. Нигаред: <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">сиёсати GitHub</a>.</p>\n            <p>Ҳангоми гузаштан ба Google, GitHub ё Google Play қоидаҳои хадамоти интихобшуда амал мекунанд. Маълумоте, ки ихтиёран тавассути GitHub Issues мефиристед, аз ҷумла номи ҳисоб ва матни муроҷиат, аз ҷониби GitHub коркард мешавад ва метавонад барои ҳама намоён бошад.</p>"
+      },
+      {
+        "id": "contact",
+        "title": "Тағйирот ва тамос",
+        "body": "<p>Ҳангоми тағйир ёфтани вазифаҳо ё роҳҳои коркард таҳиягар ин саҳифа ва санаи таҳрирро нав мекунад. Тағйироти муҳиме, ки розигии нав ё огоҳии алоҳидаро талаб мекунанд, бояд бо механизми дахлдор дар барнома ҳамроҳ бошанд. Таҳрири ҷорӣ: <strong>1.0, 6 октябри соли 2026</strong>. Таърихи матн дар <a href=\"https://github.com/Zigger06/MindTablePrivacy/commits/main/\">репозиторияи сиёсат</a> дастрас аст.</p>\n            <div class=\"contact-box\"><h3>Тамос оид ба махфият</h3><p><strong>Таҳиягар: Zigger06 · MindTable</strong></p><p>Барои савол ё дархост оид ба маълумоти худ дар репозиторияи MindTablePrivacy муроҷиат созед.</p><a class=\"contact-link\" href=\"https://github.com/Zigger06/MindTablePrivacy/issues/new?title=MindTable%20privacy%20request\">Фиристодани дархост тавассути GitHub</a><p class=\"small\">Барои фиристодан ҳисоби GitHub лозим аст. Муроҷиат кушода аст: шиносаи дастгоҳ, ҳуҷҷат, суроға, гузарвожа ё маълумоти шахсии кӯдакро нанависед. Аввал масъалаи умумиро шарҳ диҳед ва роҳи бехатари идомаи суҳбатро дархост кунед.</p></div>\n            <p class=\"small\">Нусхаҳои русӣ, англисӣ ва тоҷикӣ таҷрибаҳои якхеларо тавсиф мекунанд. Агар тарҷума фарқ кунад, нусхаи англисӣ барои тавзеҳ асос мебошад; ин ҳуқуқҳои тибқи қонуни татбиқшаванда додашударо маҳдуд намекунад.</p>"
+      }
+    ]
+  }
+}
